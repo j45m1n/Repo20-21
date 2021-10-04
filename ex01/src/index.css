@@ -1,0 +1,54 @@
+input {
+    white-space: unset;
+    background-color: black;
+    color: gray;
+}
+h2 {
+    text-align: center;
+}
+.keys {
+    background-color: gray;
+}
+.wrapper {
+    width: 460px;
+    margin: 0 auto;
+    position: relative;
+}
+.keys .display {
+    width: 100%;
+    margin-bottom: 20px;
+    user-select: none;
+}
+.wrapper .display textarea {
+    width: 98%;
+    height: 100%;
+    outline: none;
+    border-color: royalblue;
+}
+.keys input {
+    width: 35px;
+    height: 35px;
+}
+.keys .capslock {
+    width: 108px;
+}
+.keys1{
+    position: absolute;
+    top: 54.3%;
+    right: 0.4%;
+}
+.keys1 .backspace {
+    width: 70px;
+    height: 70px;
+}
+.keys .shift {
+    width: 108px;
+}
+.keys .ok {
+    width: 108px;
+}
+.keys .space {
+    width: 347px;
+}
+
+
